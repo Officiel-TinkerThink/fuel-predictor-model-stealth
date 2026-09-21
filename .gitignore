@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+mlruns/
+# Every stage's output is reproducible from the workbook; the workbook itself
+# is the planners' file and is never committed.
+data/raw/
+data/tidy/
+data/features/
+models/
+packages/
+*.xlsx
+.pytest-tmp/

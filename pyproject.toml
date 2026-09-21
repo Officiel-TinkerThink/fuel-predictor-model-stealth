@@ -1,0 +1,63 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fuel-predictor-training"
+version = "0.1.0"
+description = "Trains fuel-predictor model packages outside production, from the planners' workbook."
+requires-python = ">=3.12"
+dependencies = [
+    # The production application: its catalogs, feature contract and packager
+    # are imported, never copied, so this pipeline cannot drift from what
+    # production accepts (ADR 0009).
+    "fuel-predictor",
+    "pandas>=2.2,<3",
+    "openpyxl>=3.1,<4",
+    "scikit-learn>=1.5,<2",
+    "skl2onnx>=1.17,<2",
+    "onnxruntime>=1.20,<2",
+    "skops>=0.11,<1",
+    "mlflow>=2.15,<4",
+    "typer>=0.12,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8,<9",
+    "ruff>=0.6,<1",
+    "mypy>=1.11,<2",
+    "pandas-stubs>=2.2,<3",
+]
+
+[project.scripts]
+fpt = "fuel_training.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fuel_training"]
+
+# Local development points at the checkout next door; CI and other machines
+# use the git source instead (see README).
+[tool.uv.sources]
+fuel-predictor = { path = "../fuel_predictor", editable = true }
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = ["src", "tests"]
+
+[[tool.mypy.overrides]]
+module = ["skops.*", "sklearn.*", "skl2onnx.*", "onnxruntime.*", "mlflow.*", "openpyxl.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# The sandboxed shell cannot write to the system temp root.
+addopts = "--basetemp=.pytest-tmp"
