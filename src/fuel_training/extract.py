@@ -22,11 +22,16 @@ OPERATION_SHEETS: tuple[str, ...] = (
     "Whellcrane",
     "TrontonWinch",
 )
+# Sheets that come and go between exports: the client's live workbook carries
+# the telematics summary (VTS) but not the lookup tables the earlier file had.
+# Each is extracted when present and listed as missing otherwise; stage 2 only
+# requires "Data Fuel Stick".
 SUPPORT_SHEETS: dict[str, int] = {
     "Data Fuel Stick": 0,
     "Data Lokasi": 0,
     "Missing Data": 2,
     "Data Ratio": 2,
+    "VTS": 0,
     "Dim_Kendaraan": 0,
     "Peta_Nama_Sumber": 0,
     "Fakta_BBM_Harian": 0,
@@ -38,6 +43,7 @@ class Extraction:
     version: str
     directory: Path
     sheets: tuple[str, ...]
+    missing: tuple[str, ...] = ()
 
 
 def dataset_version(workbook: Path) -> str:
@@ -60,12 +66,20 @@ def extract(workbook: Path, raw_root: Path) -> Extraction:
     version = dataset_version(workbook)
     directory = raw_root / version
     directory.mkdir(parents=True, exist_ok=True)
+    present = set(pd.ExcelFile(workbook).sheet_names)
+    absent = [sheet for sheet in OPERATION_SHEETS if sheet not in present]
+    if absent:
+        raise LookupError(f"Workbook lacks the operation sheets {absent}; nothing to train on.")
     written: list[str] = []
+    missing: list[str] = []
     for sheet in OPERATION_SHEETS:
         frame = _sheet_frame(workbook, sheet, 0)
         frame.to_csv(directory / f"{_slug(sheet)}.csv", index=False)
         written.append(sheet)
     for sheet, header in SUPPORT_SHEETS.items():
+        if sheet not in present:
+            missing.append(sheet)
+            continue
         frame = _sheet_frame(workbook, sheet, header)
         frame.to_csv(directory / f"{_slug(sheet)}.csv", index=False)
         written.append(sheet)
@@ -78,12 +92,15 @@ def extract(workbook: Path, raw_root: Path) -> Extraction:
                 "workbook_bytes": workbook.stat().st_size,
                 "extracted_at": datetime.now(UTC).isoformat(timespec="seconds"),
                 "sheets": written,
+                "missing_sheets": missing,
             },
             indent=2,
         ),
         encoding="utf-8",
     )
-    return Extraction(version=version, directory=directory, sheets=tuple(written))
+    return Extraction(
+        version=version, directory=directory, sheets=tuple(written), missing=tuple(missing)
+    )
 
 
 def _slug(sheet: str) -> str:

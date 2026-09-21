@@ -45,6 +45,8 @@ OPERATION_COLUMNS = (
     "distance_source",
     "prepared_fuel_liters",
     "fuel_stick_km",
+    "gps_km",
+    "gps_drive_hours",
     "stop_sequence",
     "unresolved_stops",
     "activity_text",
@@ -90,6 +92,20 @@ def parse_date(text: object) -> date | None:
         except ValueError:
             continue
     return None
+
+
+_DURATION = re.compile(r"^(\d+):(\d{2}):(\d{2})$")
+
+
+def parse_duration_hours(text: object) -> float | None:
+    """'04:30:52' from the tracker is 4.51 hours; anything else is None."""
+    if text is None:
+        return None
+    match = _DURATION.match(str(text).strip())
+    if match is None:
+        return None
+    hours, minutes, seconds = (int(part) for part in match.groups())
+    return round(hours + minutes / 60 + seconds / 3600, 2)
 
 
 def derive_activity_mode(distance_km: float | None, lifting_hours: float | None) -> str | None:
@@ -224,6 +240,8 @@ def tidy_operations(
             stops = resolve_stops(split_trip(row.get("Trip")), catalogs)
             lineage = catalogs.lineage(vehicle)
             fuel_stick_km = parse_number(_fuel_stick_column(row))
+            gps_km = parse_number(row.get("Mileage Summary(KM)"))
+            gps_drive_hours = parse_duration_hours(row.get("Drive(hh:mm:ss)"))
             records.append(
                 {
                     "dataset_version": version,
@@ -239,6 +257,10 @@ def tidy_operations(
                     "distance_source": "manual",
                     "prepared_fuel_liters": liters,
                     "fuel_stick_km": fuel_stick_km,
+                    # Telematics, when the export carries it: an objective
+                    # distance beside the typed one, never in its place.
+                    "gps_km": gps_km if gps_km and gps_km > 0 else None,
+                    "gps_drive_hours": gps_drive_hours,
                     "stop_sequence": " → ".join(stops.resolved),
                     "unresolved_stops": " | ".join(stops.unresolved),
                     "activity_text": activity_text,
@@ -429,6 +451,7 @@ def report(
     if len(operations):
         lines += _units_section(operations)
         lines += _fuel_section(operations)
+        lines += _gps_section(operations)
         lines += _actuals_section(operations)
         lines += _stops_section(operations)
     if len(quarantine):
@@ -483,6 +506,18 @@ def _fuel_section(operations: pd.DataFrame) -> list[str]:
             ]
         )
     return _table("Prepared fuel per unit (litres)", ["Unit", "Min", "Median", "Mean", "Max"], rows)
+
+
+def _gps_section(operations: pd.DataFrame) -> list[str]:
+    both = operations.dropna(subset=["gps_km", "total_distance_km"])
+    if both.empty:
+        return []
+    rows: list[list[object]] = []
+    for unit, part in both.groupby("vehicle"):
+        ratio = (part["gps_km"] / part["total_distance_km"]).median()
+        rows.append([unit, len(part), f"{ratio:.2f}"])
+    header = ["Unit", "Days with both", "GPS km ÷ typed km (median)"]
+    return _table("Typed distance against the tracker, where both exist", header, rows)
 
 
 def _actuals_section(operations: pd.DataFrame) -> list[str]:

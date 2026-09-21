@@ -14,3 +14,4 @@ models/
 packages/
 *.xlsx
 .pytest-tmp/
+data/inbox/
