@@ -78,3 +78,11 @@ def explore(version: str) -> None:
     ratios = planner_ratios(DATA / "raw" / version, Catalogs.load())
     report = run_explore(DATA / "ready" / version, Path("reports") / "exploration", ratios)
     typer.echo(f"Report: {report}")
+
+
+@app.command()
+def template(out: Path = Path("templates/Template Operasi Harian.xlsx")) -> None:
+    """The data-entry template for the field, with dropdowns and a column dictionary."""
+    from fuel_training.template import write_template
+
+    typer.echo(f"Template: {write_template(out, Catalogs.load())}")

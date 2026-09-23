@@ -56,6 +56,13 @@ committed.
 - `report.md` — counts per unit, litres per unit, prepared-vs-measured where both exist, stop
   resolution and the most frequent unresolved names, quarantine by reason.
 
+## Collecting future data
+
+`templates/Template Operasi Harian.xlsx` (regenerate with `fpt template`) is what the field should fill
+from now on: one row per unit per day, plan and actual in separate columns, the fuel stick's four
+raw numbers, dropdowns for names, number-only columns. Its *Kamus Kolom* sheet says why each
+column exists.
+
 ## Checks
 
 ```bash
