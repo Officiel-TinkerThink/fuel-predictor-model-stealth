@@ -55,3 +55,26 @@ def unit_days(version: str) -> None:
     """Stage 2b: one row per unit per day from issued litres, GPS and the fuel stick."""
     result = run_unit_days(DATA / "raw" / version, DATA / "tidy" / version, Catalogs.load())
     typer.echo(f"{len(result.table)} unit-days → {result.path}")
+
+
+@app.command()
+def ready(version: str) -> None:
+    """Stage 3: training-ready tables (doubtful rows erased) into data/ready/<version>/."""
+    from fuel_training.ready import build as run_ready
+
+    result = run_ready(DATA / "tidy" / version, DATA / "ready")
+    typer.echo(
+        f"train-issued {len(result.issued)} · train-measured {len(result.measured)} · "
+        f"erased {len(result.removed)} → {result.directory}"
+    )
+
+
+@app.command()
+def explore(version: str) -> None:
+    """Exploration of the clean tables: charts and numbers into reports/exploration/<version>/."""
+    from fuel_training.explore import explore as run_explore
+    from fuel_training.planner import planner_ratios
+
+    ratios = planner_ratios(DATA / "raw" / version, Catalogs.load())
+    report = run_explore(DATA / "ready" / version, Path("reports") / "exploration", ratios)
+    typer.echo(f"Report: {report}")

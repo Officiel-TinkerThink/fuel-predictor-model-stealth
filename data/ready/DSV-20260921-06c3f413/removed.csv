@@ -1,0 +1,929 @@
+table,rule,date,vehicle
+train-issued,crane_without_lifting_hours,2026-04-25,Wheel Crane
+train-issued,typed_km_disagrees_with_tracker,2026-02-09,Prime Mover
+train-issued,typed_km_disagrees_with_tracker,2026-02-10,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-02-13,Prime Mover
+train-issued,typed_km_disagrees_with_tracker,2026-02-13,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-02-20,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-02-20,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-02-23,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-02-24,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-02-25,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-04-01,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-04-03,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-04-06,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-04-07,Prime Mover
+train-issued,typed_km_disagrees_with_tracker,2026-04-07,Wheel Crane
+train-issued,typed_km_disagrees_with_tracker,2026-04-08,Prime Mover
+train-issued,typed_km_disagrees_with_tracker,2026-04-09,Prime Mover
+train-issued,typed_km_disagrees_with_tracker,2026-04-11,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-04-14,Prime Mover
+train-issued,typed_km_disagrees_with_tracker,2026-04-18,Prime Mover
+train-issued,typed_km_disagrees_with_tracker,2026-04-18,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-04-18,Winch Truck
+train-issued,typed_km_disagrees_with_tracker,2026-04-19,Prime Mover
+train-issued,typed_km_disagrees_with_tracker,2026-04-21,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-04-22,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-04-23,Wheel Crane
+train-issued,typed_km_disagrees_with_tracker,2026-04-29,Wheel Crane
+train-issued,typed_km_disagrees_with_tracker,2026-04-30,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-04-30,Wheel Crane
+train-issued,typed_km_disagrees_with_tracker,2026-05-04,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-05-07,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-05-07,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-05-09,Prime Mover
+train-issued,typed_km_disagrees_with_tracker,2026-05-09,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-05-09,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-05-09,Wheel Crane
+train-issued,typed_km_disagrees_with_tracker,2026-05-09,Winch Truck
+train-issued,typed_km_disagrees_with_tracker,2026-05-10,Prime Mover
+train-issued,typed_km_disagrees_with_tracker,2026-05-10,Wheel Crane
+train-issued,typed_km_disagrees_with_tracker,2026-05-10,Winch Truck
+train-issued,typed_km_disagrees_with_tracker,2026-05-13,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-05-20,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-05-21,Wheel Crane
+train-issued,typed_km_disagrees_with_tracker,2026-05-25,Wheel Crane
+train-issued,typed_km_disagrees_with_tracker,2026-05-30,Prime Mover
+train-issued,typed_km_disagrees_with_tracker,2026-05-30,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-05-31,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-06-05,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-06-06,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-06-09,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-06-09,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-06-11,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-06-12,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-06-13,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-06-13,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-06-16,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-06-17,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-06-18,Prime Mover
+train-issued,typed_km_disagrees_with_tracker,2026-06-19,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-07-02,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-07-03,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-07-07,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-07-08,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-07-09,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-07-10,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-07-11,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-07-13,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-07-15,Prime Mover
+train-issued,typed_km_disagrees_with_tracker,2026-07-15,Wheel Crane
+train-issued,typed_km_disagrees_with_tracker,2026-07-17,Prime Mover
+train-issued,typed_km_disagrees_with_tracker,2026-07-17,Wheel Crane
+train-issued,typed_km_disagrees_with_tracker,2026-07-18,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-07-20,Wheel Crane
+train-issued,typed_km_disagrees_with_tracker,2026-07-21,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-07-21,Wheel Crane
+train-issued,typed_km_disagrees_with_tracker,2026-07-27,Wheel Crane
+train-issued,typed_km_disagrees_with_tracker,2026-07-29,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-07-29,Wheel Crane
+train-issued,typed_km_disagrees_with_tracker,2026-07-30,Truck Crane 02
+train-issued,typed_km_disagrees_with_tracker,2026-07-31,Truck Crane 01
+train-issued,typed_km_disagrees_with_tracker,2026-08-12,Wheel Crane
+train-issued,outlier_for_unit,2026-02-09,Oil Field Truck
+train-issued,outlier_for_unit,2026-02-09,Truck Crane 02
+train-issued,outlier_for_unit,2026-02-10,Truck Crane 02
+train-issued,outlier_for_unit,2026-02-12,Truck Crane 01
+train-issued,outlier_for_unit,2026-02-13,Oil Field Truck
+train-issued,outlier_for_unit,2026-02-14,Oil Field Truck
+train-issued,outlier_for_unit,2026-02-16,Oil Field Truck
+train-issued,outlier_for_unit,2026-02-17,Oil Field Truck
+train-issued,outlier_for_unit,2026-02-20,Oil Field Truck
+train-issued,outlier_for_unit,2026-02-21,Oil Field Truck
+train-issued,outlier_for_unit,2026-02-21,Truck Crane 01
+train-issued,outlier_for_unit,2026-02-22,Oil Field Truck
+train-issued,outlier_for_unit,2026-02-23,Oil Field Truck
+train-issued,outlier_for_unit,2026-02-28,Oil Field Truck
+train-issued,outlier_for_unit,2026-04-02,Oil Field Truck
+train-issued,outlier_for_unit,2026-04-03,Oil Field Truck
+train-issued,outlier_for_unit,2026-04-03,Truck Crane 01
+train-issued,outlier_for_unit,2026-04-03,Wheel Crane
+train-issued,outlier_for_unit,2026-04-06,Wheel Crane
+train-issued,outlier_for_unit,2026-04-14,Oil Field Truck
+train-issued,outlier_for_unit,2026-04-16,Winch Truck
+train-issued,outlier_for_unit,2026-05-14,Oil Field Truck
+train-issued,outlier_for_unit,2026-05-19,Prime Mover
+train-issued,outlier_for_unit,2026-05-20,Wheel Crane
+train-issued,outlier_for_unit,2026-05-21,Oil Field Truck
+train-issued,outlier_for_unit,2026-06-06,Truck Crane 01
+train-issued,outlier_for_unit,2026-06-11,Truck Crane 02
+train-issued,outlier_for_unit,2026-07-02,Prime Mover
+train-issued,outlier_for_unit,2026-07-04,Prime Mover
+train-issued,outlier_for_unit,2026-07-04,Wheel Crane
+train-issued,outlier_for_unit,2026-07-15,Oil Field Truck
+train-issued,outlier_for_unit,2026-07-16,Oil Field Truck
+train-issued,outlier_for_unit,2026-07-22,Truck Crane 02
+train-issued,outlier_for_unit,2026-07-30,Truck Crane 01
+train-measured,fs_negative_consumption,2026-03-09,Prime Mover
+train-measured,fs_negative_consumption,2026-03-13,Prime Mover
+train-measured,fs_negative_consumption,2026-04-18,Prime Mover
+train-measured,fs_negative_consumption,2026-04-20,Prime Mover
+train-measured,fs_negative_consumption,2026-04-25,Prime Mover
+train-measured,fs_negative_consumption,2026-05-06,Prime Mover
+train-measured,fs_negative_consumption,2026-05-11,Prime Mover
+train-measured,fs_negative_consumption,2026-05-12,Prime Mover
+train-measured,fs_negative_consumption,2026-05-27,Prime Mover
+train-measured,fs_negative_consumption,2026-06-01,Prime Mover
+train-measured,fs_negative_consumption,2026-06-03,Prime Mover
+train-measured,fs_negative_consumption,2026-04-11,Truck Crane 01
+train-measured,fs_negative_consumption,2026-04-14,Truck Crane 01
+train-measured,fs_negative_consumption,2026-04-18,Truck Crane 01
+train-measured,fs_negative_consumption,2026-04-19,Truck Crane 01
+train-measured,fs_negative_consumption,2026-04-20,Truck Crane 01
+train-measured,fs_negative_consumption,2026-04-21,Truck Crane 01
+train-measured,fs_negative_consumption,2026-04-27,Truck Crane 01
+train-measured,fs_negative_consumption,2026-05-06,Truck Crane 01
+train-measured,fs_negative_consumption,2026-05-12,Truck Crane 01
+train-measured,fs_negative_consumption,2026-05-17,Truck Crane 01
+train-measured,fs_negative_consumption,2026-05-24,Truck Crane 01
+train-measured,fs_negative_consumption,2026-05-27,Truck Crane 01
+train-measured,fs_negative_consumption,2026-05-28,Truck Crane 01
+train-measured,fs_negative_consumption,2026-05-30,Truck Crane 01
+train-measured,fs_negative_consumption,2026-06-01,Truck Crane 01
+train-measured,fs_negative_consumption,2026-06-05,Truck Crane 01
+train-measured,fs_negative_consumption,2026-06-07,Truck Crane 01
+train-measured,fs_negative_consumption,2026-06-09,Truck Crane 01
+train-measured,fs_negative_consumption,2026-06-12,Truck Crane 01
+train-measured,fs_negative_consumption,2026-06-14,Truck Crane 01
+train-measured,fs_negative_consumption,2026-06-18,Truck Crane 01
+train-measured,fs_negative_consumption,2026-06-20,Truck Crane 01
+train-measured,fs_negative_consumption,2026-06-21,Truck Crane 01
+train-measured,fs_negative_consumption,2026-06-26,Truck Crane 01
+train-measured,fs_negative_consumption,2026-06-30,Truck Crane 01
+train-measured,fs_negative_consumption,2026-07-01,Truck Crane 01
+train-measured,fs_negative_consumption,2026-07-02,Truck Crane 01
+train-measured,fs_negative_consumption,2026-07-04,Truck Crane 01
+train-measured,fs_negative_consumption,2026-07-07,Truck Crane 01
+train-measured,fs_negative_consumption,2026-07-08,Truck Crane 01
+train-measured,fs_negative_consumption,2026-07-16,Truck Crane 01
+train-measured,fs_negative_consumption,2026-07-19,Truck Crane 01
+train-measured,fs_negative_consumption,2026-07-21,Truck Crane 01
+train-measured,fs_negative_consumption,2026-07-23,Truck Crane 01
+train-measured,fs_negative_consumption,2026-07-25,Truck Crane 01
+train-measured,fs_negative_consumption,2026-07-29,Truck Crane 01
+train-measured,fs_negative_consumption,2026-08-04,Truck Crane 01
+train-measured,fs_negative_consumption,2026-08-08,Truck Crane 01
+train-measured,fs_negative_consumption,2026-08-09,Truck Crane 01
+train-measured,fs_negative_consumption,2026-08-12,Truck Crane 01
+train-measured,fs_negative_consumption,2026-08-13,Truck Crane 01
+train-measured,fs_negative_consumption,2026-08-15,Truck Crane 01
+train-measured,fs_negative_consumption,2026-08-17,Truck Crane 01
+train-measured,fs_negative_consumption,2026-08-18,Truck Crane 01
+train-measured,fs_negative_consumption,2026-08-21,Truck Crane 01
+train-measured,fs_negative_consumption,2026-04-11,Truck Crane 02
+train-measured,fs_negative_consumption,2026-04-19,Truck Crane 02
+train-measured,fs_negative_consumption,2026-04-30,Truck Crane 02
+train-measured,fs_negative_consumption,2026-05-01,Truck Crane 02
+train-measured,fs_negative_consumption,2026-05-05,Truck Crane 02
+train-measured,fs_negative_consumption,2026-05-07,Truck Crane 02
+train-measured,fs_negative_consumption,2026-05-18,Truck Crane 02
+train-measured,fs_negative_consumption,2026-05-20,Truck Crane 02
+train-measured,fs_negative_consumption,2026-05-21,Truck Crane 02
+train-measured,fs_negative_consumption,2026-05-30,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-07,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-10,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-11,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-12,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-14,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-15,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-16,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-18,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-19,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-20,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-24,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-25,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-26,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-27,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-28,Truck Crane 02
+train-measured,fs_negative_consumption,2026-06-30,Truck Crane 02
+train-measured,fs_negative_consumption,2026-07-01,Truck Crane 02
+train-measured,fs_negative_consumption,2026-07-03,Truck Crane 02
+train-measured,fs_negative_consumption,2026-07-05,Truck Crane 02
+train-measured,fs_negative_consumption,2026-07-08,Truck Crane 02
+train-measured,fs_negative_consumption,2026-07-09,Truck Crane 02
+train-measured,fs_negative_consumption,2026-07-10,Truck Crane 02
+train-measured,fs_negative_consumption,2026-07-11,Truck Crane 02
+train-measured,fs_negative_consumption,2026-07-13,Truck Crane 02
+train-measured,fs_negative_consumption,2026-07-17,Truck Crane 02
+train-measured,fs_negative_consumption,2026-07-19,Truck Crane 02
+train-measured,fs_negative_consumption,2026-07-21,Truck Crane 02
+train-measured,fs_negative_consumption,2026-07-22,Truck Crane 02
+train-measured,fs_negative_consumption,2026-07-23,Truck Crane 02
+train-measured,fs_negative_consumption,2026-07-25,Truck Crane 02
+train-measured,fs_negative_consumption,2026-07-30,Truck Crane 02
+train-measured,fs_negative_consumption,2026-08-04,Truck Crane 02
+train-measured,fs_negative_consumption,2026-08-07,Truck Crane 02
+train-measured,fs_negative_consumption,2026-08-10,Truck Crane 02
+train-measured,fs_negative_consumption,2026-08-12,Truck Crane 02
+train-measured,fs_negative_consumption,2026-08-13,Truck Crane 02
+train-measured,fs_negative_consumption,2026-08-14,Truck Crane 02
+train-measured,fs_negative_consumption,2026-08-16,Truck Crane 02
+train-measured,fs_negative_consumption,2026-08-19,Truck Crane 02
+train-measured,fs_negative_consumption,2026-08-21,Truck Crane 02
+train-measured,fs_negative_consumption,2026-05-17,VT 01
+train-measured,fs_negative_consumption,2026-06-20,VT 01
+train-measured,fs_negative_consumption,2026-07-17,VT 01
+train-measured,fs_negative_consumption,2026-04-19,VT 03
+train-measured,fs_negative_consumption,2026-05-12,VT 03
+train-measured,fs_negative_consumption,2026-06-22,VT 03
+train-measured,fs_negative_consumption,2026-07-08,VT 03
+train-measured,fs_negative_consumption,2026-07-16,VT 03
+train-measured,fs_negative_consumption,2026-07-24,VT 03
+train-measured,fs_negative_consumption,2026-08-01,VT 03
+train-measured,fs_negative_consumption,2026-05-16,VT 04
+train-measured,fs_negative_consumption,2026-05-23,VT 04
+train-measured,fs_negative_consumption,2026-06-29,VT 04
+train-measured,fs_negative_consumption,2026-04-09,VT 05
+train-measured,fs_negative_consumption,2026-05-05,VT 05
+train-measured,fs_negative_consumption,2026-05-10,VT 05
+train-measured,fs_negative_consumption,2026-05-14,VT 05
+train-measured,fs_negative_consumption,2026-06-08,VT 05
+train-measured,fs_negative_consumption,2026-06-13,VT 05
+train-measured,fs_negative_consumption,2026-06-16,VT 05
+train-measured,fs_negative_consumption,2026-06-20,VT 05
+train-measured,fs_negative_consumption,2026-07-14,VT 05
+train-measured,fs_negative_consumption,2026-08-03,VT 05
+train-measured,fs_negative_consumption,2026-08-04,VT 05
+train-measured,fs_negative_consumption,2026-08-11,VT 05
+train-measured,fs_negative_consumption,2026-08-15,VT 05
+train-measured,fs_negative_consumption,2026-04-14,VT 06
+train-measured,fs_negative_consumption,2026-06-17,VT 06
+train-measured,fs_negative_consumption,2026-07-05,VT 06
+train-measured,fs_negative_consumption,2026-07-26,VT 06
+train-measured,fs_negative_consumption,2026-04-15,VT 07
+train-measured,fs_negative_consumption,2026-04-16,VT 07
+train-measured,fs_negative_consumption,2026-05-02,VT 07
+train-measured,fs_negative_consumption,2026-05-21,VT 07
+train-measured,fs_negative_consumption,2026-05-22,VT 07
+train-measured,fs_negative_consumption,2026-07-31,VT 07
+train-measured,fs_negative_consumption,2026-08-03,VT 07
+train-measured,fs_negative_consumption,2026-08-07,VT 07
+train-measured,fs_negative_consumption,2026-08-09,VT 07
+train-measured,fs_negative_consumption,2026-08-12,VT 07
+train-measured,fs_negative_consumption,2026-04-26,VT 09
+train-measured,fs_negative_consumption,2026-06-11,VT 09
+train-measured,fs_negative_consumption,2026-04-16,VT 11
+train-measured,fs_negative_consumption,2026-04-21,VT 11
+train-measured,fs_negative_consumption,2026-04-26,VT 11
+train-measured,fs_negative_consumption,2026-04-30,VT 11
+train-measured,fs_negative_consumption,2026-05-02,VT 11
+train-measured,fs_negative_consumption,2026-05-07,VT 11
+train-measured,fs_negative_consumption,2026-05-10,VT 11
+train-measured,fs_negative_consumption,2026-05-22,VT 11
+train-measured,fs_negative_consumption,2026-05-31,VT 11
+train-measured,fs_negative_consumption,2026-06-08,VT 11
+train-measured,fs_negative_consumption,2026-06-13,VT 11
+train-measured,fs_negative_consumption,2026-06-16,VT 11
+train-measured,fs_negative_consumption,2026-06-29,VT 11
+train-measured,fs_negative_consumption,2026-07-01,VT 11
+train-measured,fs_negative_consumption,2026-07-04,VT 11
+train-measured,fs_negative_consumption,2026-07-10,VT 11
+train-measured,fs_negative_consumption,2026-07-13,VT 11
+train-measured,fs_negative_consumption,2026-07-14,VT 11
+train-measured,fs_negative_consumption,2026-07-15,VT 11
+train-measured,fs_negative_consumption,2026-07-18,VT 11
+train-measured,fs_negative_consumption,2026-07-22,VT 11
+train-measured,fs_negative_consumption,2026-08-05,VT 11
+train-measured,fs_negative_consumption,2026-08-08,VT 11
+train-measured,fs_negative_consumption,2026-04-08,VT 13
+train-measured,fs_negative_consumption,2026-06-09,VT 13
+train-measured,fs_negative_consumption,2026-08-18,VT 13
+train-measured,fs_negative_consumption,2026-04-22,Wheel Crane
+train-measured,fs_negative_consumption,2026-04-27,Wheel Crane
+train-measured,fs_negative_consumption,2026-04-30,Wheel Crane
+train-measured,fs_negative_consumption,2026-05-07,Wheel Crane
+train-measured,fs_negative_consumption,2026-05-22,Wheel Crane
+train-measured,fs_negative_consumption,2026-05-24,Wheel Crane
+train-measured,fs_negative_consumption,2026-05-27,Wheel Crane
+train-measured,fs_negative_consumption,2026-05-28,Wheel Crane
+train-measured,fs_negative_consumption,2026-06-10,Wheel Crane
+train-measured,fs_negative_consumption,2026-06-25,Wheel Crane
+train-measured,fs_negative_consumption,2026-06-28,Wheel Crane
+train-measured,fs_negative_consumption,2026-07-03,Wheel Crane
+train-measured,fs_negative_consumption,2026-07-08,Wheel Crane
+train-measured,fs_negative_consumption,2026-07-09,Wheel Crane
+train-measured,fs_negative_consumption,2026-07-22,Wheel Crane
+train-measured,fs_negative_consumption,2026-07-29,Wheel Crane
+train-measured,fs_negative_consumption,2026-07-31,Wheel Crane
+train-measured,fs_negative_consumption,2026-08-04,Wheel Crane
+train-measured,fs_negative_consumption,2026-08-05,Wheel Crane
+train-measured,fs_negative_consumption,2026-08-15,Wheel Crane
+train-measured,fs_negative_consumption,2026-08-16,Wheel Crane
+train-measured,fs_negative_consumption,2026-08-20,Wheel Crane
+train-measured,fs_negative_consumption,2026-03-31,Winch Truck
+train-measured,fs_negative_consumption,2026-04-10,Winch Truck
+train-measured,fs_negative_consumption,2026-04-13,Winch Truck
+train-measured,fs_negative_consumption,2026-04-14,Winch Truck
+train-measured,fs_negative_consumption,2026-04-15,Winch Truck
+train-measured,fs_negative_consumption,2026-04-17,Winch Truck
+train-measured,fs_negative_consumption,2026-05-18,Winch Truck
+train-measured,fs_negative_consumption,2026-05-21,Winch Truck
+train-measured,fs_negative_consumption,2026-06-23,Winch Truck
+train-measured,fs_negative_consumption,2026-06-24,Winch Truck
+train-measured,fs_negative_consumption,2026-06-25,Winch Truck
+train-measured,fs_negative_consumption,2026-07-01,Winch Truck
+train-measured,fs_negative_consumption,2026-07-03,Winch Truck
+train-measured,fs_negative_consumption,2026-07-06,Winch Truck
+train-measured,fs_negative_consumption,2026-07-07,Winch Truck
+train-measured,fs_negative_consumption,2026-07-08,Winch Truck
+train-measured,fs_negative_consumption,2026-07-09,Winch Truck
+train-measured,fs_negative_consumption,2026-07-10,Winch Truck
+train-measured,fs_negative_consumption,2026-07-12,Winch Truck
+train-measured,fs_negative_consumption,2026-07-24,Winch Truck
+train-measured,fs_negative_consumption,2026-07-26,Winch Truck
+train-measured,fs_negative_consumption,2026-07-31,Winch Truck
+train-measured,fs_negative_consumption,2026-08-07,Winch Truck
+train-measured,fs_negative_consumption,2026-08-21,Winch Truck
+train-measured,fs_km_per_litre_implausible,2026-04-11,Prime Mover
+train-measured,fs_km_per_litre_implausible,2026-08-06,Truck Crane 01
+train-measured,fs_km_per_litre_implausible,2026-08-16,Truck Crane 01
+train-measured,fs_km_per_litre_implausible,2026-04-15,Truck Crane 02
+train-measured,fs_km_per_litre_implausible,2026-05-24,Truck Crane 02
+train-measured,fs_km_per_litre_implausible,2026-05-31,Truck Crane 02
+train-measured,fs_km_per_litre_implausible,2026-07-29,Truck Crane 02
+train-measured,fs_km_per_litre_implausible,2026-03-28,VT 01
+train-measured,fs_km_per_litre_implausible,2026-04-28,VT 02
+train-measured,fs_km_per_litre_implausible,2026-05-09,VT 02
+train-measured,fs_km_per_litre_implausible,2026-05-12,VT 02
+train-measured,fs_km_per_litre_implausible,2026-08-06,VT 02
+train-measured,fs_km_per_litre_implausible,2026-08-08,VT 02
+train-measured,fs_km_per_litre_implausible,2026-08-13,VT 03
+train-measured,fs_km_per_litre_implausible,2026-08-17,VT 03
+train-measured,fs_km_per_litre_implausible,2026-08-21,VT 03
+train-measured,fs_km_per_litre_implausible,2026-08-19,VT 05
+train-measured,fs_km_per_litre_implausible,2026-06-07,VT 06
+train-measured,fs_km_per_litre_implausible,2026-07-22,VT 06
+train-measured,fs_km_per_litre_implausible,2026-08-16,VT 06
+train-measured,fs_km_per_litre_implausible,2026-08-19,VT 06
+train-measured,fs_km_per_litre_implausible,2026-04-09,VT 07
+train-measured,fs_km_per_litre_implausible,2026-04-10,VT 07
+train-measured,fs_km_per_litre_implausible,2026-04-12,VT 07
+train-measured,fs_km_per_litre_implausible,2026-04-22,VT 07
+train-measured,fs_km_per_litre_implausible,2026-04-23,VT 07
+train-measured,fs_km_per_litre_implausible,2026-04-29,VT 07
+train-measured,fs_km_per_litre_implausible,2026-05-11,VT 07
+train-measured,fs_km_per_litre_implausible,2026-05-24,VT 07
+train-measured,fs_km_per_litre_implausible,2026-08-11,VT 07
+train-measured,fs_km_per_litre_implausible,2026-04-09,VT 09
+train-measured,fs_km_per_litre_implausible,2026-04-21,VT 09
+train-measured,fs_km_per_litre_implausible,2026-04-27,VT 09
+train-measured,fs_km_per_litre_implausible,2026-04-28,VT 09
+train-measured,fs_km_per_litre_implausible,2026-04-29,VT 09
+train-measured,fs_km_per_litre_implausible,2026-05-19,VT 09
+train-measured,fs_km_per_litre_implausible,2026-05-21,VT 09
+train-measured,fs_km_per_litre_implausible,2026-08-15,VT 09
+train-measured,fs_km_per_litre_implausible,2026-08-17,VT 09
+train-measured,fs_km_per_litre_implausible,2026-04-28,VT 11
+train-measured,fs_km_per_litre_implausible,2026-05-24,VT 11
+train-measured,fs_km_per_litre_implausible,2026-05-30,VT 11
+train-measured,fs_km_per_litre_implausible,2026-06-26,VT 11
+train-measured,fs_km_per_litre_implausible,2026-07-16,VT 11
+train-measured,fs_km_per_litre_implausible,2026-07-20,VT 11
+train-measured,fs_km_per_litre_implausible,2026-07-24,VT 11
+train-measured,fs_km_per_litre_implausible,2026-08-09,VT 11
+train-measured,fs_km_per_litre_implausible,2026-08-16,VT 11
+train-measured,fs_km_per_litre_implausible,2026-06-01,VT 13
+train-measured,fs_km_per_litre_implausible,2026-04-11,Wheel Crane
+train-measured,fs_km_per_litre_implausible,2026-05-03,Wheel Crane
+train-measured,fs_km_per_litre_implausible,2026-05-25,Wheel Crane
+train-measured,fs_km_per_litre_implausible,2026-06-15,Wheel Crane
+train-measured,fs_km_per_litre_implausible,2026-06-17,Wheel Crane
+train-measured,fs_km_per_litre_implausible,2026-06-26,Wheel Crane
+train-measured,fs_km_per_litre_implausible,2026-06-27,Wheel Crane
+train-measured,fs_km_per_litre_implausible,2026-06-29,Wheel Crane
+train-measured,fs_km_per_litre_implausible,2026-06-30,Wheel Crane
+train-measured,fs_km_per_litre_implausible,2026-07-02,Wheel Crane
+train-measured,fs_km_per_litre_implausible,2026-07-04,Wheel Crane
+train-measured,fs_km_per_litre_implausible,2026-05-22,Winch Truck
+train-measured,no_consumption_measured,2026-08-02,Truck Crane 01
+train-measured,no_consumption_measured,2026-07-08,VT 06
+train-measured,no_consumption_measured,2026-06-23,VT 11
+train-measured,no_consumption_measured,2026-04-09,VT 13
+train-measured,no_consumption_measured,2026-08-02,Wheel Crane
+train-measured,no_consumption_measured,2026-08-14,Wheel Crane
+train-measured,no_consumption_measured,2026-08-21,Wheel Crane
+train-measured,no_consumption_measured,2026-04-16,Winch Truck
+train-measured,no_consumption_measured,2026-04-22,Winch Truck
+train-measured,no_consumption_measured,2026-06-02,Winch Truck
+train-measured,no_consumption_measured,2026-06-30,Winch Truck
+train-measured,no_consumption_measured,2026-07-19,Winch Truck
+train-measured,no_consumption_measured,2026-08-04,Winch Truck
+train-measured,no_consumption_measured,2026-08-20,Winch Truck
+train-measured,no_tracker_record,2026-04-26,Prime Mover
+train-measured,no_tracker_record,2026-05-17,Prime Mover
+train-measured,no_tracker_record,2026-05-24,Prime Mover
+train-measured,no_tracker_record,2026-05-28,Prime Mover
+train-measured,no_tracker_record,2026-06-04,Prime Mover
+train-measured,no_tracker_record,2026-06-06,Prime Mover
+train-measured,no_tracker_record,2026-04-26,Truck Crane 01
+train-measured,no_tracker_record,2026-05-01,Truck Crane 01
+train-measured,no_tracker_record,2026-07-15,Truck Crane 01
+train-measured,no_tracker_record,2026-07-26,Truck Crane 01
+train-measured,no_tracker_record,2026-07-27,Truck Crane 01
+train-measured,no_tracker_record,2026-08-01,Truck Crane 01
+train-measured,no_tracker_record,2026-04-20,Truck Crane 02
+train-measured,no_tracker_record,2026-05-27,Truck Crane 02
+train-measured,no_tracker_record,2026-05-28,Truck Crane 02
+train-measured,no_tracker_record,2026-07-06,Truck Crane 02
+train-measured,no_tracker_record,2026-07-12,Truck Crane 02
+train-measured,no_tracker_record,2026-07-26,Truck Crane 02
+train-measured,no_tracker_record,2026-07-28,Truck Crane 02
+train-measured,no_tracker_record,2026-08-17,Truck Crane 02
+train-measured,no_tracker_record,2026-04-11,VT 07
+train-measured,no_tracker_record,2026-04-08,VT 11
+train-measured,no_tracker_record,2026-04-09,VT 11
+train-measured,no_tracker_record,2026-04-10,VT 11
+train-measured,no_tracker_record,2026-04-11,VT 11
+train-measured,no_tracker_record,2026-04-12,VT 11
+train-measured,no_tracker_record,2026-04-13,VT 11
+train-measured,no_tracker_record,2026-06-09,VT 11
+train-measured,no_tracker_record,2026-08-19,VT 11
+train-measured,no_tracker_record,2026-04-10,VT 13
+train-measured,no_tracker_record,2026-04-11,VT 13
+train-measured,no_tracker_record,2026-04-12,VT 13
+train-measured,no_tracker_record,2026-04-13,VT 13
+train-measured,no_tracker_record,2026-04-14,VT 13
+train-measured,no_tracker_record,2026-04-15,VT 13
+train-measured,no_tracker_record,2026-04-16,VT 13
+train-measured,no_tracker_record,2026-04-17,VT 13
+train-measured,no_tracker_record,2026-04-18,VT 13
+train-measured,no_tracker_record,2026-04-19,VT 13
+train-measured,no_tracker_record,2026-04-20,VT 13
+train-measured,no_tracker_record,2026-04-21,VT 13
+train-measured,no_tracker_record,2026-04-22,VT 13
+train-measured,no_tracker_record,2026-04-23,VT 13
+train-measured,no_tracker_record,2026-04-24,VT 13
+train-measured,no_tracker_record,2026-04-25,VT 13
+train-measured,no_tracker_record,2026-04-26,VT 13
+train-measured,no_tracker_record,2026-04-27,VT 13
+train-measured,no_tracker_record,2026-04-28,VT 13
+train-measured,no_tracker_record,2026-04-29,VT 13
+train-measured,no_tracker_record,2026-04-30,VT 13
+train-measured,no_tracker_record,2026-05-01,VT 13
+train-measured,no_tracker_record,2026-05-02,VT 13
+train-measured,no_tracker_record,2026-05-03,VT 13
+train-measured,no_tracker_record,2026-05-04,VT 13
+train-measured,no_tracker_record,2026-05-05,VT 13
+train-measured,no_tracker_record,2026-05-06,VT 13
+train-measured,no_tracker_record,2026-05-07,VT 13
+train-measured,no_tracker_record,2026-05-08,VT 13
+train-measured,no_tracker_record,2026-05-09,VT 13
+train-measured,no_tracker_record,2026-05-10,VT 13
+train-measured,no_tracker_record,2026-05-11,VT 13
+train-measured,no_tracker_record,2026-05-12,VT 13
+train-measured,no_tracker_record,2026-05-13,VT 13
+train-measured,no_tracker_record,2026-05-14,VT 13
+train-measured,no_tracker_record,2026-05-15,VT 13
+train-measured,no_tracker_record,2026-05-16,VT 13
+train-measured,no_tracker_record,2026-05-17,VT 13
+train-measured,no_tracker_record,2026-05-18,VT 13
+train-measured,no_tracker_record,2026-05-19,VT 13
+train-measured,no_tracker_record,2026-05-20,VT 13
+train-measured,no_tracker_record,2026-05-21,VT 13
+train-measured,no_tracker_record,2026-05-22,VT 13
+train-measured,no_tracker_record,2026-05-23,VT 13
+train-measured,no_tracker_record,2026-05-24,VT 13
+train-measured,no_tracker_record,2026-05-25,VT 13
+train-measured,no_tracker_record,2026-05-26,VT 13
+train-measured,no_tracker_record,2026-05-27,VT 13
+train-measured,no_tracker_record,2026-05-28,VT 13
+train-measured,no_tracker_record,2026-05-29,VT 13
+train-measured,no_tracker_record,2026-05-30,VT 13
+train-measured,no_tracker_record,2026-05-31,VT 13
+train-measured,no_tracker_record,2026-06-02,VT 13
+train-measured,no_tracker_record,2026-06-03,VT 13
+train-measured,no_tracker_record,2026-06-04,VT 13
+train-measured,no_tracker_record,2026-06-05,VT 13
+train-measured,no_tracker_record,2026-06-06,VT 13
+train-measured,no_tracker_record,2026-06-07,VT 13
+train-measured,no_tracker_record,2026-06-08,VT 13
+train-measured,no_tracker_record,2026-06-10,VT 13
+train-measured,no_tracker_record,2026-06-11,VT 13
+train-measured,no_tracker_record,2026-06-12,VT 13
+train-measured,no_tracker_record,2026-06-13,VT 13
+train-measured,no_tracker_record,2026-06-14,VT 13
+train-measured,no_tracker_record,2026-06-15,VT 13
+train-measured,no_tracker_record,2026-06-16,VT 13
+train-measured,no_tracker_record,2026-06-17,VT 13
+train-measured,no_tracker_record,2026-06-18,VT 13
+train-measured,no_tracker_record,2026-06-19,VT 13
+train-measured,no_tracker_record,2026-06-20,VT 13
+train-measured,no_tracker_record,2026-06-21,VT 13
+train-measured,no_tracker_record,2026-06-22,VT 13
+train-measured,no_tracker_record,2026-06-23,VT 13
+train-measured,no_tracker_record,2026-06-24,VT 13
+train-measured,no_tracker_record,2026-06-25,VT 13
+train-measured,no_tracker_record,2026-06-26,VT 13
+train-measured,no_tracker_record,2026-06-27,VT 13
+train-measured,no_tracker_record,2026-06-28,VT 13
+train-measured,no_tracker_record,2026-06-29,VT 13
+train-measured,no_tracker_record,2026-06-30,VT 13
+train-measured,no_tracker_record,2026-07-01,VT 13
+train-measured,no_tracker_record,2026-07-02,VT 13
+train-measured,no_tracker_record,2026-07-03,VT 13
+train-measured,no_tracker_record,2026-07-04,VT 13
+train-measured,no_tracker_record,2026-07-05,VT 13
+train-measured,no_tracker_record,2026-07-06,VT 13
+train-measured,no_tracker_record,2026-07-07,VT 13
+train-measured,no_tracker_record,2026-07-08,VT 13
+train-measured,no_tracker_record,2026-07-09,VT 13
+train-measured,no_tracker_record,2026-07-10,VT 13
+train-measured,no_tracker_record,2026-07-11,VT 13
+train-measured,no_tracker_record,2026-07-12,VT 13
+train-measured,no_tracker_record,2026-07-13,VT 13
+train-measured,no_tracker_record,2026-07-14,VT 13
+train-measured,no_tracker_record,2026-07-15,VT 13
+train-measured,no_tracker_record,2026-07-16,VT 13
+train-measured,no_tracker_record,2026-07-17,VT 13
+train-measured,no_tracker_record,2026-07-18,VT 13
+train-measured,no_tracker_record,2026-07-19,VT 13
+train-measured,no_tracker_record,2026-07-20,VT 13
+train-measured,no_tracker_record,2026-07-21,VT 13
+train-measured,no_tracker_record,2026-07-22,VT 13
+train-measured,no_tracker_record,2026-07-23,VT 13
+train-measured,no_tracker_record,2026-07-24,VT 13
+train-measured,no_tracker_record,2026-07-25,VT 13
+train-measured,no_tracker_record,2026-07-26,VT 13
+train-measured,no_tracker_record,2026-07-27,VT 13
+train-measured,no_tracker_record,2026-07-28,VT 13
+train-measured,no_tracker_record,2026-07-29,VT 13
+train-measured,no_tracker_record,2026-07-30,VT 13
+train-measured,no_tracker_record,2026-07-31,VT 13
+train-measured,no_tracker_record,2026-08-01,VT 13
+train-measured,no_tracker_record,2026-08-02,VT 13
+train-measured,no_tracker_record,2026-08-03,VT 13
+train-measured,no_tracker_record,2026-08-04,VT 13
+train-measured,no_tracker_record,2026-08-05,VT 13
+train-measured,no_tracker_record,2026-08-06,VT 13
+train-measured,no_tracker_record,2026-08-07,VT 13
+train-measured,no_tracker_record,2026-08-08,VT 13
+train-measured,no_tracker_record,2026-08-09,VT 13
+train-measured,no_tracker_record,2026-08-10,VT 13
+train-measured,no_tracker_record,2026-08-11,VT 13
+train-measured,no_tracker_record,2026-08-12,VT 13
+train-measured,no_tracker_record,2026-08-13,VT 13
+train-measured,no_tracker_record,2026-08-14,VT 13
+train-measured,no_tracker_record,2026-08-15,VT 13
+train-measured,no_tracker_record,2026-08-16,VT 13
+train-measured,no_tracker_record,2026-08-17,VT 13
+train-measured,no_tracker_record,2026-08-19,VT 13
+train-measured,no_tracker_record,2026-08-20,VT 13
+train-measured,no_tracker_record,2026-08-21,VT 13
+train-measured,no_tracker_record,2026-04-09,Wheel Crane
+train-measured,no_tracker_record,2026-05-04,Wheel Crane
+train-measured,no_tracker_record,2026-05-16,Wheel Crane
+train-measured,no_tracker_record,2026-05-17,Wheel Crane
+train-measured,no_tracker_record,2026-06-20,Wheel Crane
+train-measured,no_tracker_record,2026-06-21,Wheel Crane
+train-measured,no_tracker_record,2026-07-06,Wheel Crane
+train-measured,no_tracker_record,2026-07-11,Wheel Crane
+train-measured,no_tracker_record,2026-07-12,Wheel Crane
+train-measured,no_tracker_record,2026-07-23,Wheel Crane
+train-measured,no_tracker_record,2026-07-24,Wheel Crane
+train-measured,no_tracker_record,2026-07-25,Wheel Crane
+train-measured,no_tracker_record,2026-08-06,Wheel Crane
+train-measured,no_tracker_record,2026-08-07,Wheel Crane
+train-measured,no_tracker_record,2026-08-09,Wheel Crane
+train-measured,no_tracker_record,2026-04-08,Winch Truck
+train-measured,no_tracker_record,2026-04-09,Winch Truck
+train-measured,no_tracker_record,2026-04-19,Winch Truck
+train-measured,no_tracker_record,2026-05-27,Winch Truck
+train-measured,no_tracker_record,2026-05-28,Winch Truck
+train-measured,no_tracker_record,2026-06-04,Winch Truck
+train-measured,no_tracker_record,2026-06-05,Winch Truck
+train-measured,no_tracker_record,2026-06-06,Winch Truck
+train-measured,no_tracker_record,2026-06-07,Winch Truck
+train-measured,no_tracker_record,2026-06-09,Winch Truck
+train-measured,no_tracker_record,2026-06-10,Winch Truck
+train-measured,no_tracker_record,2026-06-12,Winch Truck
+train-measured,no_tracker_record,2026-06-14,Winch Truck
+train-measured,no_tracker_record,2026-06-15,Winch Truck
+train-measured,no_tracker_record,2026-06-17,Winch Truck
+train-measured,no_tracker_record,2026-06-20,Winch Truck
+train-measured,no_tracker_record,2026-06-21,Winch Truck
+train-measured,no_tracker_record,2026-06-27,Winch Truck
+train-measured,no_tracker_record,2026-06-28,Winch Truck
+train-measured,no_tracker_record,2026-07-13,Winch Truck
+train-measured,no_tracker_record,2026-07-15,Winch Truck
+train-measured,no_tracker_record,2026-07-16,Winch Truck
+train-measured,no_tracker_record,2026-07-18,Winch Truck
+train-measured,no_tracker_record,2026-07-23,Winch Truck
+train-measured,no_tracker_record,2026-07-27,Winch Truck
+train-measured,no_tracker_record,2026-07-30,Winch Truck
+train-measured,no_tracker_record,2026-08-11,Winch Truck
+train-measured,no_tracker_record,2026-08-13,Winch Truck
+train-measured,no_tracker_record,2026-08-14,Winch Truck
+train-measured,no_tracker_record,2026-08-16,Winch Truck
+train-measured,no_tracker_record,2026-08-17,Winch Truck
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-05-18,Prime Mover
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-08,Prime Mover
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-08,Truck Crane 02
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-12,Truck Crane 02
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-13,Truck Crane 02
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-03,Truck Crane 02
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-03,VT 03
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-13,VT 04
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-18,VT 04
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-02,VT 04
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-06,VT 04
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-21,VT 04
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-26,VT 04
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-31,VT 04
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-01,VT 04
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-21,VT 04
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-03-26,VT 05
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-19,VT 05
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-21,VT 05
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-26,VT 05
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-15,VT 06
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-02,VT 06
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-03,VT 06
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-06,VT 06
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-10,VT 06
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-18,VT 06
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-21,VT 06
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-24,VT 06
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-09,VT 06
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-23,VT 06
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-27,VT 06
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-02,VT 06
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-20,VT 06
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-14,VT 07
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-17,VT 07
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-26,VT 08
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-02,VT 08
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-21,VT 08
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-21,VT 09
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-14,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-15,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-18,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-19,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-23,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-25,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-04-29,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-05-01,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-05-03,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-05-08,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-05-09,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-05-12,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-05-14,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-05-18,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-05-19,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-05-27,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-05-29,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-01,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-05,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-06,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-12,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-17,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-18,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-19,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-20,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-21,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-28,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-06-30,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-05,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-06,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-07,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-08,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-09,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-11,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-12,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-17,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-19,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-21,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-23,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-25,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-26,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-28,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-30,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-07-31,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-04,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-07,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-10,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-11,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-12,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-17,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-18,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-08-20,VT 11
+train-measured,fuel_stick_km_disagrees_with_tracker,2026-05-18,Wheel Crane
+train-measured,typed_km_but_no_movement_recorded,2026-05-10,Truck Crane 01
+train-measured,typed_km_but_no_movement_recorded,2026-04-09,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-04-18,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-04-21,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-04-22,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-04-23,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-04-24,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-04-25,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-04-26,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-04-27,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-04-28,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-04-29,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-05-03,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-05-04,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-07-18,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-07-20,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-07-27,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-07-31,Truck Crane 02
+train-measured,typed_km_but_no_movement_recorded,2026-04-24,Wheel Crane
+train-measured,typed_km_but_no_movement_recorded,2026-06-18,Wheel Crane
+train-measured,typed_km_but_no_movement_recorded,2026-07-28,Wheel Crane
+train-measured,typed_km_but_no_movement_recorded,2026-05-19,Winch Truck
+train-measured,typed_km_but_no_movement_recorded,2026-05-20,Winch Truck
+train-measured,crane_day_without_typed_hours,2026-04-08,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-04-12,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-04-13,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-04-16,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-04-28,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-05-14,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-05-31,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-06-02,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-06-03,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-06-04,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-06-23,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-06-24,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-06-25,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-06-27,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-06-28,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-06-29,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-07-05,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-07-10,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-07-12,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-07-24,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-08-03,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-08-05,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-08-07,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-08-10,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-08-11,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-08-14,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-08-19,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-08-20,Truck Crane 01
+train-measured,crane_day_without_typed_hours,2026-04-10,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-04-16,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-04-17,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-05-02,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-05-08,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-05-10,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-05-11,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-05-14,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-05-15,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-05-16,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-05-17,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-05-22,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-05-23,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-06-01,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-06-02,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-06-04,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-06-17,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-06-21,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-06-23,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-06-29,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-07-16,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-08-01,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-08-02,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-08-05,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-08-06,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-08-08,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-08-09,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-08-11,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-08-15,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-08-18,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-08-20,Truck Crane 02
+train-measured,crane_day_without_typed_hours,2026-04-08,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-04-10,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-04-12,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-04-13,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-04-14,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-04-20,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-04-25,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-05-01,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-05-05,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-05-11,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-05-12,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-05-14,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-05-15,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-05-23,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-05-31,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-06-01,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-06-02,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-06-03,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-06-04,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-06-14,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-06-19,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-06-23,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-06-24,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-07-01,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-07-05,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-07-10,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-07-13,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-07-16,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-07-18,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-07-26,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-07-30,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-08-01,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-08-03,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-08-08,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-08-10,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-08-11,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-08-13,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-08-17,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-08-18,Wheel Crane
+train-measured,crane_day_without_typed_hours,2026-08-19,Wheel Crane
+train-measured,unit_km_per_litre_implausible,2026-03-31,VT 11
+train-measured,unit_km_per_litre_implausible,2026-04-17,VT 11
+train-measured,unit_km_per_litre_implausible,2026-04-20,VT 11
+train-measured,unit_km_per_litre_implausible,2026-04-22,VT 11
+train-measured,unit_km_per_litre_implausible,2026-04-24,VT 11
+train-measured,unit_km_per_litre_implausible,2026-04-27,VT 11
+train-measured,unit_km_per_litre_implausible,2026-05-04,VT 11
+train-measured,unit_km_per_litre_implausible,2026-05-05,VT 11
+train-measured,unit_km_per_litre_implausible,2026-05-06,VT 11
+train-measured,unit_km_per_litre_implausible,2026-05-11,VT 11
+train-measured,unit_km_per_litre_implausible,2026-05-13,VT 11
+train-measured,unit_km_per_litre_implausible,2026-05-15,VT 11
+train-measured,unit_km_per_litre_implausible,2026-05-16,VT 11
+train-measured,unit_km_per_litre_implausible,2026-05-17,VT 11
+train-measured,unit_km_per_litre_implausible,2026-05-20,VT 11
+train-measured,unit_km_per_litre_implausible,2026-05-21,VT 11
+train-measured,unit_km_per_litre_implausible,2026-05-23,VT 11
+train-measured,unit_km_per_litre_implausible,2026-05-25,VT 11
+train-measured,unit_km_per_litre_implausible,2026-05-26,VT 11
+train-measured,unit_km_per_litre_implausible,2026-05-28,VT 11
+train-measured,unit_km_per_litre_implausible,2026-06-02,VT 11
+train-measured,unit_km_per_litre_implausible,2026-06-03,VT 11
+train-measured,unit_km_per_litre_implausible,2026-06-04,VT 11
+train-measured,unit_km_per_litre_implausible,2026-06-07,VT 11
+train-measured,unit_km_per_litre_implausible,2026-06-10,VT 11
+train-measured,unit_km_per_litre_implausible,2026-06-11,VT 11
+train-measured,unit_km_per_litre_implausible,2026-06-14,VT 11
+train-measured,unit_km_per_litre_implausible,2026-06-15,VT 11
+train-measured,unit_km_per_litre_implausible,2026-06-22,VT 11
+train-measured,unit_km_per_litre_implausible,2026-06-24,VT 11
+train-measured,unit_km_per_litre_implausible,2026-06-25,VT 11
+train-measured,unit_km_per_litre_implausible,2026-06-27,VT 11
+train-measured,unit_km_per_litre_implausible,2026-07-02,VT 11
+train-measured,unit_km_per_litre_implausible,2026-07-03,VT 11
+train-measured,unit_km_per_litre_implausible,2026-07-27,VT 11
+train-measured,unit_km_per_litre_implausible,2026-07-29,VT 11
+train-measured,unit_km_per_litre_implausible,2026-08-01,VT 11
+train-measured,unit_km_per_litre_implausible,2026-08-02,VT 11
+train-measured,unit_km_per_litre_implausible,2026-08-03,VT 11
+train-measured,unit_km_per_litre_implausible,2026-08-06,VT 11
+train-measured,unit_km_per_litre_implausible,2026-08-13,VT 11
+train-measured,unit_km_per_litre_implausible,2026-08-14,VT 11
+train-measured,unit_km_per_litre_implausible,2026-08-15,VT 11
+train-measured,unit_km_per_litre_implausible,2026-08-21,VT 11
+train-measured,outlier_for_unit,2026-03-26,Prime Mover
+train-measured,outlier_for_unit,2026-04-08,Prime Mover
+train-measured,outlier_for_unit,2026-04-12,Prime Mover
+train-measured,outlier_for_unit,2026-04-28,Prime Mover
+train-measured,outlier_for_unit,2026-05-13,Prime Mover
+train-measured,outlier_for_unit,2026-05-20,Prime Mover
+train-measured,outlier_for_unit,2026-05-29,Prime Mover
+train-measured,outlier_for_unit,2026-06-05,Prime Mover
+train-measured,outlier_for_unit,2026-04-15,Truck Crane 01
+train-measured,outlier_for_unit,2026-05-11,Truck Crane 01
+train-measured,outlier_for_unit,2026-06-15,Truck Crane 01
+train-measured,outlier_for_unit,2026-04-17,VT 01
+train-measured,outlier_for_unit,2026-05-12,VT 01
+train-measured,outlier_for_unit,2026-06-22,VT 01
+train-measured,outlier_for_unit,2026-06-27,VT 01
+train-measured,outlier_for_unit,2026-07-28,VT 01
+train-measured,outlier_for_unit,2026-07-31,VT 01
+train-measured,outlier_for_unit,2026-08-04,VT 01
+train-measured,outlier_for_unit,2026-08-05,VT 01
+train-measured,outlier_for_unit,2026-08-20,VT 01
+train-measured,outlier_for_unit,2026-04-24,VT 02
+train-measured,outlier_for_unit,2026-07-01,VT 02
+train-measured,outlier_for_unit,2026-07-13,VT 02
+train-measured,outlier_for_unit,2026-07-17,VT 02
+train-measured,outlier_for_unit,2026-08-09,VT 02
+train-measured,outlier_for_unit,2026-08-17,VT 02
+train-measured,outlier_for_unit,2026-04-14,VT 03
+train-measured,outlier_for_unit,2026-06-05,VT 03
+train-measured,outlier_for_unit,2026-06-06,VT 03
+train-measured,outlier_for_unit,2026-06-07,VT 03
+train-measured,outlier_for_unit,2026-06-13,VT 03
+train-measured,outlier_for_unit,2026-06-26,VT 03
+train-measured,outlier_for_unit,2026-06-30,VT 03
+train-measured,outlier_for_unit,2026-07-02,VT 03
+train-measured,outlier_for_unit,2026-08-05,VT 03
+train-measured,outlier_for_unit,2026-05-08,VT 06
+train-measured,outlier_for_unit,2026-05-12,VT 06
+train-measured,outlier_for_unit,2026-08-18,VT 06
+train-measured,outlier_for_unit,2026-05-19,VT 07
+train-measured,outlier_for_unit,2026-06-16,VT 07
+train-measured,outlier_for_unit,2026-06-18,VT 07
+train-measured,outlier_for_unit,2026-06-20,VT 07
+train-measured,outlier_for_unit,2026-06-26,VT 07
+train-measured,outlier_for_unit,2026-06-28,VT 07
+train-measured,outlier_for_unit,2026-07-03,VT 07
+train-measured,outlier_for_unit,2026-07-22,VT 07
+train-measured,outlier_for_unit,2026-07-28,VT 07
+train-measured,outlier_for_unit,2026-08-04,VT 07
+train-measured,outlier_for_unit,2026-04-10,VT 08
+train-measured,outlier_for_unit,2026-08-03,VT 08
+train-measured,outlier_for_unit,2026-04-12,VT 09
+train-measured,outlier_for_unit,2026-04-16,VT 09
+train-measured,outlier_for_unit,2026-06-01,VT 09
+train-measured,outlier_for_unit,2026-05-26,Winch Truck
