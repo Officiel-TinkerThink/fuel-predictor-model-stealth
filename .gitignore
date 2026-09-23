@@ -16,3 +16,4 @@ packages/
 .pytest-tmp/
 data/inbox/
 reports/
+data/ready/
