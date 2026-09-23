@@ -17,7 +17,6 @@ Nothing here decides what the model learns from. Each row carries every value
 side by side, and `issues` names each rule a value broke; stage 3 chooses.
 """
 
-import re
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
@@ -26,7 +25,13 @@ import pandas as pd
 
 from fuel_training.catalog import Catalogs
 from fuel_training.extract import raw_frame
-from fuel_training.tidy import fuel_stick_vehicle, parse_date, parse_duration_hours, parse_number
+from fuel_training.tidy import (
+    _EXPORTED_DATE,
+    fuel_stick_vehicle,
+    parse_date,
+    parse_duration_hours,
+    repair_number,
+)
 
 # What a value may be before it is called implausible rather than learnt from.
 MAX_DAILY_LITRES = 400.0  # more than a tank
@@ -35,24 +40,6 @@ MAX_HOURS = 24.0
 MIN_KM_PER_LITRE, MAX_KM_PER_LITRE = 0.05, 10.0
 # Typed and tracked distance for the same day, beyond this ratio either way.
 DISTANCE_DISAGREEMENT = 2.0
-
-_EXPORTED_DATE = re.compile(r"^(\d{4})-(\d{2})-(\d{2})(?: 00:00:00)?$")
-
-
-def repair_number(text: object) -> float | None:
-    """A numeric cell, undoing the export's decimal-to-date damage.
-
-    `2026-05-30 00:00:00` in a numeric column was `30.5`; `2026-04-01` was
-    `1.4`. A real number passes through `parse_number` unchanged.
-    """
-    if text is None:
-        return None
-    cleaned = str(text).strip()
-    if match := _EXPORTED_DATE.match(cleaned):
-        _, month, day = (int(part) for part in match.groups())
-        return float(f"{day}.{month}")
-    return parse_number(cleaned)
-
 
 # --- sources ------------------------------------------------------------------------
 

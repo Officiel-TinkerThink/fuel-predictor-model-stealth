@@ -18,11 +18,11 @@ from fuel_training.tidy import (
     fuel_stick_vehicle,
     parse_date,
     parse_number,
+    repair_number,
     resolve_stops,
     split_trip,
     tidy_operations,
 )
-from fuel_training.unit_days import repair_number
 
 
 @pytest.fixture(scope="module")

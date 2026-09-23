@@ -113,10 +113,15 @@ over 21 units. `issues` names every rule a value broke; nothing is dropped.
    issued figure was built that way.
 3. **Measured consumption is about half of what is issued**, and its lifting rate is far lower than
    the rule's: 1.9 / 0.8 / 6.1 L/h measured against 10.6 / 10.6 / 14.4 assumed.
-4. **For the VTs, issued litres do not follow work** — correlation with GPS km ≈ 0 daily and weekly;
-   they behave like a quota. **Measured VT consumption does follow GPS km** (0.3–0.9 per unit, 0.51
-   pooled over 1,268 days).
-5. Truck Crane 01 / 02 GPS km run 1.5× / 1.2× the typed km; Prime Mover and Wheel Crane agree (≈1.0).
+4. **For the VTs, the 2026 issued litres are refills, not a daily need.** `Analisis` columns AL–AX
+   (2026 block, VT 01–VT 13) show a tank filled every few days — VT 01: 235 L on 4 Mar (AL66), 250 L
+   on 9 Mar (AL71), zero between — while `Data GPS` column Q shows VT 01 driving 20–100 km every day.
+   So a day's issued litres say nothing about that day's work. The 2025 block (columns J onward) is
+   different again: a fixed figure per unit per day (VT 01 100 L, VT 02 130 L, VT 03 110 L…).
+   **Measured VT consumption does follow GPS km** (0.3–0.9 per unit, 0.51 pooled over 1,268 days).
+5. **Typed km run above the tracker.** Against `Data GPS` column Q, tracker ÷ typed km (median) is
+   0.96 Truck Crane 01, 0.75 Truck Crane 02, 0.70 Wheel Crane, 0.82 Prime Mover. (An earlier draft said
+   1.5× / 1.2×: that read the unit sheets' tracker column `AA` without the date repair.)
 
 Consequence for training: see `docs/pipeline.md` § "Targets" — the first model predicts *issued* fuel
 (what the app promises today, ADR 0002) with the formula's structure; the model worth building next

@@ -80,6 +80,24 @@ def parse_number(text: object) -> float | None:
     return value
 
 
+_EXPORTED_DATE = re.compile(r"^(\d{4})-(\d{2})-(\d{2})(?: 00:00:00)?$")
+
+
+def repair_number(text: object) -> float | None:
+    """A numeric cell, undoing the export's decimal-to-date damage.
+
+    `2026-05-30 00:00:00` in a numeric column was `30.5`; `2026-04-01` was
+    `1.4`. A real number passes through `parse_number` unchanged.
+    """
+    if text is None:
+        return None
+    cleaned = str(text).strip()
+    if match := _EXPORTED_DATE.match(cleaned):
+        _, month, day = (int(part) for part in match.groups())
+        return float(f"{day}.{month}")
+    return parse_number(cleaned)
+
+
 def parse_date(text: object) -> date | None:
     if text is None:
         return None
@@ -240,7 +258,7 @@ def tidy_operations(
             stops = resolve_stops(split_trip(row.get("Trip")), catalogs)
             lineage = catalogs.lineage(vehicle)
             fuel_stick_km = parse_number(_fuel_stick_column(row))
-            gps_km = parse_number(row.get("Mileage Summary(KM)"))
+            gps_km = repair_number(row.get("Mileage Summary(KM)"))
             gps_drive_hours = parse_duration_hours(row.get("Drive(hh:mm:ss)"))
             records.append(
                 {
