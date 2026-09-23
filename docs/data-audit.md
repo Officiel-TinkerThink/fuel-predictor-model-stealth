@@ -79,3 +79,46 @@ shared slope (`baseline-v2`) will fit the trucks and average the cranes.
 - **2025.** `Fakta_BBM_Harian` covers 2025 at daily-litres level only; no operation rows exist for
   it.
 - **Actuals as a label.** See decision 1.
+
+---
+
+# Addendum — the client's live Google Sheet (`DSV-20260921-06c3f413`, exported 2026-09-21)
+
+The client maintains the workbook as a Google Sheet; that is the source from now on. It has the same
+unit sheets (the 400 operations are identical) and three sources the file lacked or that were not used:
+
+| Sheet | What it adds |
+|---|---|
+| `Data GPS` | Tracker km and drive / working / idle hours per unit-day, **Jan–Aug 2026, every unit including VT 01–11**. |
+| `Analisis` (2026 block) | Litres issued per unit per day, **VTs included**. |
+| `Mentah - Data Fuel Stick` | The dip-stick log. Its values are sound; the *export* damaged them (below). |
+
+**Export damage, and its repair.** Google Sheets exports decimals such as `30.5` as the date 30 May
+and `1.4` as 1 April (920 of 3,966 GPS mileages; ~40% of the fuel-stick consumption cells). Reading such
+a cell as `day.month` restores it: checked against the sheet's own `Data Fuel Stick` tab, the repaired
+`Mentah` agrees on 2,087 of 2,088 mileages and every consumption. Dates in `Mentah` cannot be repaired
+cell by cell (day/month swap is ambiguous), so the fuel stick is read from `Data Fuel Stick`.
+
+**The clean table** (`fpt unit-days`) is one row per unit per day where anything happened: 4,312 rows
+over 21 units. `issues` names every rule a value broke; nothing is dropped.
+
+## What the numbers say (and change)
+
+1. **Litres issued are the planners' formula.** Fitting issued litres on the crane operations gives
+   10.4 / 9.8 / 14.5 L per lifting hour (TC 01 / TC 02 / Wheel Crane) and 0.44 / 0.40 / 0.88 L/km —
+   `Data Ratio` says 10.6 / 10.6 / 14.4 L/h and 1/2.4, 1/2.4, 1/1.1 km/L. The label reproduces the
+   allocation rule; a model trained on it learns that rule back.
+2. **Only the three cranes lift**, as the field says. Subtracting the fixed L/h from their issued
+   litres leaves "mobilisation litres" that track km closely (corr 0.83–0.95) — again because the
+   issued figure was built that way.
+3. **Measured consumption is about half of what is issued**, and its lifting rate is far lower than
+   the rule's: 1.9 / 0.8 / 6.1 L/h measured against 10.6 / 10.6 / 14.4 assumed.
+4. **For the VTs, issued litres do not follow work** — correlation with GPS km ≈ 0 daily and weekly;
+   they behave like a quota. **Measured VT consumption does follow GPS km** (0.3–0.9 per unit, 0.51
+   pooled over 1,268 days).
+5. Truck Crane 01 / 02 GPS km run 1.5× / 1.2× the typed km; Prime Mover and Wheel Crane agree (≈1.0).
+
+Consequence for training: see `docs/pipeline.md` § "Targets" — the first model predicts *issued* fuel
+(what the app promises today, ADR 0002) with the formula's structure; the model worth building next
+predicts *measured* consumption from GPS-comparable distance and lifting hours, and the gap between the
+two is the saving the product can show.

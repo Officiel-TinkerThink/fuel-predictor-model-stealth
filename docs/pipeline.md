@@ -170,3 +170,24 @@ promotes it (ADR 0004). This pipeline stops at the file.
   today, how far "prepared" sits from "burned" per unit. That gap is the calibration question ADR
   0002 defers; it is answered with a separate model or a correction factor, later, not by
   swapping the label now.
+
+## Targets (added 2026-09-23, after the live-sheet audit)
+
+Two targets exist and they are different questions:
+
+| Target | Source | Rows | What a model on it is |
+|---|---|---|---|
+| **Issued litres** | unit sheets `Liter`, `Analisis` | 400 operations (6 units) | The planners' allocation rule, learnt back — with fitted per-unit rates and an honest uncertainty. What the app predicts today (ADR 0002). |
+| **Measured consumption** | fuel stick, repaired | 1,786 clean unit-days (16 units, 1,392 VT) | What the unit actually burns for a given distance and lifting time. The basis for recommending *less* than today's allocation. |
+
+Model shape for both, in this order:
+
+1. **Structured linear** (first): `litres = base(unit) + km × rate(type→group) + lifting_hours × rate(crane)`,
+   lifting term structurally zero for non-lifting units, rates pooled unit → type → group (ADR 0015).
+   Interpretable, needs little data, and its coefficients are directly comparable with `Data Ratio`.
+2. **Fixed lifting rate** (the field's rule, as a variant to compare, not the default): subtract
+   `hours × L/h` and model the remainder on km. Equivalent to (1) with the lifting rate fixed instead
+   of fitted; worth it only if fitted rates prove unstable.
+3. **Gradient boosting** only once measured data per unit is well past a few hundred days.
+
+Every recorded actual in the app becomes a new measured row, so retraining on (2)/(3) improves by itself.

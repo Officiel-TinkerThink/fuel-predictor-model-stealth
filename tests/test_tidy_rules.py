@@ -22,6 +22,7 @@ from fuel_training.tidy import (
     split_trip,
     tidy_operations,
 )
+from fuel_training.unit_days import repair_number
 
 
 @pytest.fixture(scope="module")
@@ -261,3 +262,19 @@ def test_rows_become_operations_or_are_quarantined_with_a_reason(
         "Sumber Jarak",
     ]
     assert quarantine.frame()["reason"].tolist().count("lifting_only") == 1
+
+
+@pytest.mark.parametrize(
+    ("text", "expected"),
+    [
+        ("2026-05-30 00:00:00", 30.5),
+        ("2026-04-01", 1.4),
+        ("2026-12-03 00:00:00", 3.12),
+        ("62.6", 62.6),
+        ("-37", -37.0),
+        ("", None),
+    ],
+)
+def test_the_exports_decimal_to_date_damage_is_undone(text: str, expected: float | None) -> None:
+    """Sheets read 30.5 as 30 May; the number is the day, a dot, the month."""
+    assert repair_number(text) == expected
