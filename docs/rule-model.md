@@ -41,8 +41,9 @@ vehicle one-hot + km + lifting hours  →  pairwise interactions  →  linear re
 The regression's coefficients are **set** from the rule, not fitted: the "is VT 01 × km" term holds
 VT 01's litres per km, "is Truck Crane 01 × lifting hours" holds its lift ratio, and the intercept
 is the fleet's base. It reads the app's own feature contract (`baseline-v2`), is exported to ONNX,
-and is packaged by the app's `ModelPackageBuilder`. To production it is simply a model version, named
-`rule-data-ratio-…`.
+and is packaged by the app's `ModelPackageBuilder`. To production it is simply a model version
+(`rule-reserve-…` or `rule-plain-…`), and the app gives it a model code (`M-yymmdd-nn`) on upload,
+under which its predictions and field performance are tracked.
 
 **Moving to a trained model** means calling `pipeline.fit(features, issued_litres)` (or a
 regularised regressor in place of `LinearRegression`, pooling by type and group as
@@ -56,8 +57,8 @@ unit's days. Nothing was fitted on those rows.
 
 | Package | MAE | Bias | Within ± MAE |
 |---|---|---|---|
-| `rule-data-ratio-…` (the formula exactly as the sheet writes it) | 16.8 L | −16.8 L | 60 % |
-| `rule-data-ratio-reserve-…` (formula + each unit's usual reserve) | 5.2 L | −0.5 L | 68 % |
+| `rule-plain-…` (the formula exactly as the sheet writes it) | 16.8 L | −16.8 L | 60 % |
+| `rule-reserve-…` (formula + each unit's usual reserve) | 5.2 L | −0.5 L | 68 % |
 
 **The formula alone is about 17 L below what planners actually issue**, for every unit and in both
 splits. The sheet's own *Rekomendasi BBM* column is also above the formula (by about 10 L), so
@@ -67,9 +68,11 @@ for units without issued rows). The ratios themselves stay the planners'.
 
 Two things production enforces that matter here:
 
-- **Promotion needs MAE ≤ `FUEL_PREDICTOR_MAX_ACTIVE_MODEL_MAE_LITERS` (default 5 L).** The reserve
-  variant is at 5.2 L, the formula alone at 16.8 L. Promoting either one means raising that
-  setting, which is the owner's decision. The same value also sets the monitoring alert threshold.
+- **The promotion policy flags MAE above `FUEL_PREDICTOR_MAX_ACTIVE_MODEL_MAE_LITERS` (default
+  5 L).** The upload page then says the candidate "belum memenuhi kebijakan promosi", but an
+  administrator can still promote it. The reserve variant is at 5.2 L, the formula alone at 16.8 L.
+  The same value is the monitoring alert threshold, so once the rule is active, expect the alert
+  unless the setting is raised to match. That's the owner's decision.
 - **The ± band on every estimate is the package's MAE.** The recommended allocation is the
   estimate plus the larger of that band and the safety margin. With the formula alone, the estimate
   sits 17 L low and only the band brings the allocation back up.

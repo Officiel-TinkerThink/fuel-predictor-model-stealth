@@ -109,7 +109,9 @@ def package_rule(
         per_unit, fleet = reserve_from(training, table)
         table = table.with_reserve(per_unit, fleet)
         parameter_rows += len(training)
-    model_version = f"rule-data-ratio{'-reserve' if reserve else ''}-{version}"
+    # Short enough for any deployed app (older ones stored 40 characters); the
+    # app gives every model its own readable code (M-yymmdd-nn) on upload.
+    model_version = f"rule-{'reserve' if reserve else 'plain'}-{version}"
     package = build(
         table,
         model_version=model_version,
