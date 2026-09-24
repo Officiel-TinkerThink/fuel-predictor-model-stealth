@@ -80,6 +80,56 @@ def explore(version: str) -> None:
     typer.echo(f"Report: {report}")
 
 
+@app.command("package-rule")
+def package_rule(
+    version: str,
+    reserve: bool = typer.Option(
+        False,
+        "--reserve/--no-reserve",
+        help="Add the litres planners issue above the formula, per unit, from the training split.",
+    ),
+) -> None:
+    """The planners' Data Ratio rule as a production model package (docs/rule-model.md)."""
+    import pandas as pd
+
+    from fuel_training.planner import planner_ratios
+    from fuel_training.rule_model import RuleTable, reserve_from
+    from fuel_training.rule_package import build, report, write
+
+    issued_path = DATA / "ready" / version / "train-issued.csv"
+    if not issued_path.is_file():
+        raise typer.BadParameter(f"{issued_path} does not exist; run `fpt ready` first.")
+    catalogs = Catalogs.load()
+    ratios = planner_ratios(DATA / "raw" / version, catalogs)
+    table = RuleTable.from_ratios(ratios, catalogs.vehicles.options())
+    issued = pd.read_csv(issued_path)
+    parameter_rows = len(ratios)
+    if reserve:
+        training = issued[issued["split"] == "train"]
+        per_unit, fleet = reserve_from(training, table)
+        table = table.with_reserve(per_unit, fleet)
+        parameter_rows += len(training)
+    model_version = f"rule-data-ratio{'-reserve' if reserve else ''}-{version}"
+    package = build(
+        table,
+        model_version=model_version,
+        dataset_version=version,
+        issued=issued,
+        parameter_rows=parameter_rows,
+        catalog_fingerprint=catalogs.fingerprint(),
+    )
+    path = write(package, Path("packages"))
+    report_path = Path("reports") / "rule" / f"{model_version}.md"
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text(report(table, package), encoding="utf-8")
+    metrics = package.metrics
+    typer.echo(
+        f"{model_version}: MAE {metrics.mae_liters:.2f} L on {len(package.test_rows)} "
+        f"held-out operations → {path}"
+    )
+    typer.echo(f"Report: {report_path}")
+
+
 @app.command()
 def template(out: Path = Path("templates/Template Operasi Harian.xlsx")) -> None:
     """The data-entry template for the field, with dropdowns and a column dictionary."""

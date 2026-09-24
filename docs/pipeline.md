@@ -144,6 +144,10 @@ category (only `ANGBER` today, so also per vehicle group, which is what the plan
 The `Data Ratio` heuristic (km ÷ ratio + hours × ratio + safety) is evaluated on the same rows as
 the baseline to beat; a candidate that does not beat it is not packaged.
 
+Until a trained candidate beats it, the Data Ratio rule itself is packaged and served
+(`fpt package-rule`, [`rule-model.md`](rule-model.md)). It uses the same pipeline shape a trained
+`baseline-v2` candidate uses, so the switch is a new package and nothing else.
+
 ## Stage 6 — package
 
 Uses `fuel_predictor.packaging.model_packager.ModelPackageBuilder` — imported from the app, never

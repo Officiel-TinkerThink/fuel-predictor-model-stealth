@@ -15,10 +15,19 @@ records what the first workbook contained and what was decided about it.
 |---|---|
 | 1 extract | done — `fpt extract` |
 | 2 tidy | done — `fpt tidy`; report, quarantine, actuals, app-import file |
-| 3 split | next |
-| 4 train (`baseline-v2`) | next |
-| 5 evaluate | next |
-| 6 package | next — uses the app's own `ModelPackageBuilder` |
+| 3 split | done — `fpt ready`; the last 20 % of each unit's days is `test` |
+| 4 train (`baseline-v2`) | next — until then, the **rule model** stands in (below) |
+| 5 evaluate | done for the rule model — held-out MAE, bias, interval coverage |
+| 6 package | done for the rule model — `fpt package-rule`, with the app's own `ModelPackageBuilder` |
+
+## The rule model (what production serves first)
+
+`fpt package-rule <dataset-version> --reserve` packages the planners' `Data Ratio` rule as an
+ordinary model: the same pipeline, feature contract, ONNX export and package a trained model will
+use, with its coefficients taken from the rule. Production accepts, activates and monitors it like
+any model, and a trained candidate later replaces it by upload. Read
+[`docs/rule-model.md`](docs/rule-model.md): it explains the rule, why the formula alone sits about
+17 L below what's issued, and what `--reserve` does about it.
 
 ## Setup
 

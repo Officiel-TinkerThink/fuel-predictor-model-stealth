@@ -343,8 +343,8 @@ def write_template(path: Path, catalogs: Catalogs) -> Path:
     places = workbook.create_sheet("Daftar Lokasi")
     places.cell(row=1, column=1, value="Lokasi").fill = header_fill
     places["A1"].font = header_font
-    for row, option in enumerate(catalogs.locations.options(), start=2):
-        places.cell(row=row, column=1, value=option.name)
+    for row, place in enumerate(catalogs.locations.options(), start=2):
+        places.cell(row=row, column=1, value=place.name)
     places.column_dimensions["A"].width = 40
 
     lists = workbook.create_sheet("Pilihan")

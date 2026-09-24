@@ -237,7 +237,11 @@ def test_rows_become_operations_or_are_quarantined_with_a_reason(
     crane_day = operations.iloc[2]
     assert crane_day["activity_mode"] == "transport_and_lifting"
     assert crane_day["stop_sequence"] == "POOL LIMAU → KRG-012 → POOL LIMAU"
-    assert (crane_day["vehicle_type"], crane_day["vehicle_group"]) == ("Crane", "Crane")
+    # The catalog carries the Data Ratio sheet's types (fuel-predictor ADR 0015).
+    assert (crane_day["vehicle_type"], crane_day["vehicle_group"]) == (
+        "Scania P410B 8x4",
+        "Crane",
+    )
     lifting_only = operations.iloc[3]
     assert lifting_only["activity_mode"] == "lifting" and pd.isna(lifting_only["total_distance_km"])
     reasons = quarantine.frame().set_index("source_row")["reason"].to_dict()
